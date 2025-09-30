@@ -13,7 +13,7 @@ Integrantes:
 ------------------------------------------------------------------------
 
 Nota:
-Si se dese reproducir localmente ese ipynb, se debe instalar todas las dependencias:
+Si se desea reproducir localmente ese ipynb, se debe instalar todas las dependencias:
 
 pip install -r requirements.txt
 ------------------------------------------------------------------------
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 | **Ridge** | 0.5296     | 0.62     | 2.95     |
 | **Lasso** | 0.5275     | 0.62     | 0.0020   |
 
-El modelo OLS alcanzó un R² de aproximadamente 0.61 y un MSE de 0.54, mostrando un ajuste aceptable pero con coeficientes de magnitudes variables, sensibles a la multicolinealidad, lo que puede afectar la estabilidad del modelo. Ridge, con un valor de $\alpha$ aproximado de 2.95, redujo ligeramente el MSE a 0.53 y mejoró la generalización mediante la regularización L2, que atenúa la magnitud de los coeficientes sin eliminarlos. Lasso, con $\alpha$ = 0.0020, obtuvo el menor MSE (0.527) y aplicó regularización L1, lo que permitió que algunos coeficientes se aproximaran a cero. Se concluye que Lasso tiene un mejor desempeño predictivo.
+El modelo OLS alcanzó un R² de aproximadamente 0.61 y un MSE de 0.54. Ridge, con un valor de $\alpha$ aproximado de 2.95, redujo ligeramente el MSE a 0.53 y mejoró la generalización mediante la regularización L2, que atenúa la magnitud de los coeficientes sin eliminarlos. Lasso, con $\alpha$ = 0.0020, obtuvo el menor MSE (0.527) y aplicó regularización L1, lo que permitió que algunos coeficientes se aproximaran a cero. Se concluye que Lasso tiene un mejor desempeño predictivo.
 
 ### Effect of learning rate on gradient descent,
 
