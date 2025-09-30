@@ -12,6 +12,11 @@ Integrantes:
 
 ------------------------------------------------------------------------
 
+Nota:
+Si se dese reproducir localmente ese ipynb, se debe instalar todas las dependencias:
+
+pip install -r requirements.txt
+------------------------------------------------------------------------
 ## **California Housing dataset**
 
 ### Differences observed between OLS, Ridge, and Lasso,
